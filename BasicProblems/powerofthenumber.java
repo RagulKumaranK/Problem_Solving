@@ -1,6 +1,7 @@
 package BasicProblems;
 //base = 5 exponent = 2 output =25
 // not for 2 exponent for all.
+//this work only on positive numbers
 public class powerofthenumber {
     
     public static void main(String[] args) {
