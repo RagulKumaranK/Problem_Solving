@@ -4,6 +4,7 @@ package BasicProblems;
 public class powerofthenumber {
     
     public static void main(String[] args) {
+        System.out.println(baseExponent(4,4)); 
         System.out.println((long)Math.abs(baseExponent(46,25)));
     }
     static int baseExponent(int base, int ex){
