@@ -3,9 +3,8 @@ package Sorting;
 public class Selection {
     public static void main(String[] args) {
         int arr[] ={42,32,22,62,52,12,2};
-        //int result[]=selectionSort(arr);
         for(int a:selectionSort(arr)){
-            System.out.print(" "+a);
+            System.out.print(a+" ");
         }
     }
     static int[] selectionSort(int[] arr){
